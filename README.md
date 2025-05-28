@@ -13,11 +13,11 @@
 </div>
 
 <div align="center">
-  <a href="https://arxiv.org/pdf/2505.20156"><img src="https://img.shields.io/static/v1?label=Tech Report&message=Arxiv&color=red"></a> &ensp;
+  <a href="https://arxiv.org/pdf/2505.20156"><img src="https://img.shields.io/badge/ArXiv-2505.20156-red"></a> &ensp;
 </div>
 
 <div align="center">
-  <a href="https://huggingface.co/tencent/HunyuanVideo-Avatar"><img src="https://img.shields.io/static/v1?label=HunyuanVideo-Avatar&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://huggingface.co/tencent/HunyuanVideo-Avatar"><img src="https://img.shields.io/static/v1?label=HunyuanVideo-Avatar&message=HunyuanVideo-Avatar&color=yellow"></a> &ensp;
 </div>
 
 ![image](assets/material/teaser.png)
