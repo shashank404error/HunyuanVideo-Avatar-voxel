@@ -85,8 +85,9 @@ HunyuanVideo-Avatar supports various downstream tasks and applications. For inst
 
 * An NVIDIA GPU with CUDA support is required. 
   * The model is tested on a machine with 8GPUs.
-  * **Minimum**: The minimum GPU memory required is 24GB for 720px1280px129f but very slow.
-  * **Recommended**: We recommend using a GPU with 80GB of memory for better generation quality.
+  * **Minimum**: The minimum GPU memory required is 24GB for 704px768px129f but very slow.
+  * **Recommended**: We recommend using a GPU with 96GB of memory for better generation quality.
+  * **Tips**: If OOM occurs when using GPU with 80GB of memory, try to reduce the image resolution. 
 * Tested operating system: Linux
 
 
