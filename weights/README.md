@@ -26,7 +26,7 @@ HunyuanVideo-Avatar
   │  │  ├──...
 ```
 
-## Download HunyuanCustom model
+## Download HunyuanVideo-Avatar model
 To download the HunyuanCustom model, first install the huggingface-cli. (Detailed instructions are available [here](https://huggingface.co/docs/huggingface_hub/guides/cli).)
 
 ```shell
