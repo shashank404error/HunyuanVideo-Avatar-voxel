@@ -22,7 +22,7 @@
 
 ![image](assets/material/teaser.png)
 
-> [**Tencent HunyuanVideo-Avatar: Dynamic and Consistent Audio-Driven Human Animation for Multiple Characters**](https://arxiv.org/pdf/2505.20156) <be>
+> [**HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters**](https://arxiv.org/pdf/2505.20156) <be>
 
 ## 🔥🔥🔥 News!!
 * May 28, 2025: 🔥 HunyuanVideo-Avatar is available in Cloud-Native-Build (CNB) [HunyuanVideo-Avatar](https://cnb.cool/tencent/hunyuan/HunyuanVideo-Avatar).
