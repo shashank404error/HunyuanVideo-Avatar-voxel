@@ -94,7 +94,7 @@ HunyuanVideo-Avatar supports various downstream tasks and applications. For inst
 
 Begin by cloning the repository:
 ```shell
-git clone https://github.com/Tencent/HunyuanVideo-Avatar.git
+git clone https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar.git
 cd HunyuanVideo-Avatar
 ```
 
