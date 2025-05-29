@@ -13,7 +13,6 @@ from einops import rearrange
 import torchvision.transforms as transforms
 from torchvision.transforms import ToPILImage
 from hymm_sp.data_kits.audio_dataset import get_audio_feature
-from hymm_sp.data_kits.ffmpeg_utils import save_video
 
 TEMP_DIR = "./temp"
 if not os.path.exists(TEMP_DIR):
@@ -247,7 +246,7 @@ def process_output_dict(output_dict):
 
     uuid_string = str(uuid.uuid4())
     temp_video_path = f'{TEMP_DIR}/{uuid_string}.mp4'
-    save_video(output_dict["video"], temp_video_path, fps=output_dict.get("save_fps", 25))
+    imageio.mimsave(temp_video_path, output_dict["video"], fps=output_dict.get("save_fps", 25))
 
     # Add audio
     if output_dict["audio"] is not None and os.path.exists(output_dict["audio"]):
