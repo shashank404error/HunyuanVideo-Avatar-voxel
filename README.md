@@ -25,6 +25,7 @@
 > [**HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters**](https://arxiv.org/pdf/2505.20156) <be>
 
 ## 🔥🔥🔥 News!!
+* Jun 06, 2025: 🔥 HunyuanVideo-Avatar supports **Single GPU** with only **10GB VRAM**, with **TeaCache** included, **HUGE THANKS** to [Wan2GP](https://github.com/deepbeepmeep/Wan2GP)
 * May 28, 2025: 🔥 HunyuanVideo-Avatar is available in Cloud-Native-Build (CNB) [HunyuanVideo-Avatar](https://cnb.cool/tencent/hunyuan/HunyuanVideo-Avatar).
 * May  28, 2025: 👋 We release the inference code and model weights of HunyuanVideo-Avatar. [Download](weights/README.md).
 
@@ -243,6 +244,10 @@ CUDA_VISIBLE_DEVICES=0 python3 hymm_sp/sample_gpu_poor.py \
     --cpu-offload \
     --infer-min
 ```
+
+### Run with 10GB VRAM GPU (TeaCache supported)
+
+Thanks to [Wan2GP](https://github.com/deepbeepmeep/Wan2GP), HunyuanVideo-Avatar now supports single GPU mode with even lower VRAM (10GB) without quality degradation. Check out this [great repo](https://github.com/deepbeepmeep/Wan2GP/tree/main/hyvideo).
 
 
 ## Run a Gradio Server
